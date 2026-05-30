@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+
+# Environment files
+.env
+*.env
+
+# Build output
+dist/
+build/
+
+# Local uploads and runtime files
+uploads/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Frontend-specific
+/client/node_modules/
+/client/.env
+/client/.env.*
+
+# Backend-specific
+/backend/node_modules/
+/backend/.env
+/backend/.env.*
